@@ -669,13 +669,7 @@ const Home = () => {
             exciting new challenges.
           </p>
           <div className="reveal flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="mailto:yourname@email.com"
-              className="font-mono text-xs tracking-widest uppercase text-parch border border-border px-8 py-4 hover:border-gold hover:text-gold transition-all duration-300"
-              style={{ borderRadius: "2px", letterSpacing: ".15em" }}
-            >
-              tofikmalik07860@gmail.com
-            </a>
+            
             <a
               href="#"
               className="font-mono text-xs tracking-widest uppercase text-muted hover:text-gold transition-colors py-4"
@@ -705,6 +699,12 @@ const Home = () => {
           >
             LinkedIn
           </a>
+          <a
+  href="tel:+917737186707"
+  className="font-mono text-xs text-muted hover:text-gold transition-colors"
+>
+  +91 77371 86707
+</a>
         </div>
       </footer>
     </div>
